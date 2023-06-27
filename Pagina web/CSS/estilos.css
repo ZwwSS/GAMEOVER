@@ -1,0 +1,90 @@
+/* Estilos para el encabezado */
+header {
+    background-color: #5D6D7E ;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  nav a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+  }
+  
+  /* Estilos para el contenido principal */
+  #main-content {
+    background-color:#FDFEFE  ;
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .game {
+    width: 300px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+  }
+  
+  .game img {
+    width: 200px;
+    height: 300px;
+    margin-bottom: 10px;
+  }
+  
+  .game h2 {
+    margin: 0;
+  }
+  
+  .game p {
+    margin: 10px 0;
+  }
+  
+  .buy-btn {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  /* Estilos para el formulario de carga de imágenes */
+  #image-upload-form {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  #image-upload {
+    display: none;
+  }
+  
+  #upload-btn {
+    background-color: #2E86C1;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  /* Estilos para el pie de página */
+  footer {
+    background-color: #5D6D7E;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
